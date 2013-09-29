@@ -24,6 +24,7 @@ Now you can use FTL_editor, They are two mode:
 - interactive mode:
 Run FTL_editor without argument. The tool will ask what do you want to set.
 
+```
 $ ./FTL_editor
 Current health: 30
 Current fuel: 16
@@ -46,8 +47,10 @@ fuel:500
 5/ Set number of Scrap
 6/ Exit
 choice: 6
-
+```
 - directly from commad line:
 By using argument to set amount
 
+```
 $ ./FTL_editor --life 30 --fuel 500 --drone 500 --missile 500 --scrap 5000
+```
